@@ -231,7 +231,7 @@ python 999.py sample.exe --chat
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-reverse-engineering-tool.git
+git clone https://github.com/vedantkulkarni1234/R3v3rc3_01.git
 cd smart-reverse-engineering-tool
 
 # Install required dependencies
@@ -252,16 +252,6 @@ pip install angr z3-solver pwntools
 
 # AI providers (choose based on your needs)
 pip install google-generativeai openai anthropic
-```
-
-### Method 3: Using Docker
-
-```bash
-# Build the Docker image
-docker build -t reverse-tool .
-
-# Run analysis
-docker run -v $(pwd):/data reverse-tool /data/sample.exe
 ```
 
 ### Dependencies Overview
